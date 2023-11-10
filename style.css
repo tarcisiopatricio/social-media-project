@@ -47,3 +47,20 @@
         text-align: right;
         /* moving icons to the right side */
     }
+
+    #social-media img { 
+        /* making all icons have circle shape */
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+        box-sizing: border-box; /* icons will not move with cursor */
+    }
+
+    #social-media img:hover{
+        border: 2px solid rgb(255, 255, 255, 0.637);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.402);
+        transform: translate(-3px, -3px); /* icon slightly moves to left with the cursor touches */
+        transition: transform .5s, border 1s; /* timing for the border */         
+    } 
