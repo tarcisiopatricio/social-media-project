@@ -6,4 +6,4 @@
 
  ### You can access this project <a href="https://tarcisiopatricio.github.io/social-media-project/" target="_blank"> HERE !</a>
 
- <img src="frame.png" alt="QRCODE">
+
